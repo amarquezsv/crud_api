@@ -1,4 +1,5 @@
 # CRUD API WITH DJANGO REST FRAMEWORK
+![image](https://github.com/user-attachments/assets/8439e427-2e3a-47dc-8dbd-c484bcdabfb6)
 
 ## Requirements
 - Python 3.12.4
