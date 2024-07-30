@@ -14,6 +14,31 @@ python -m venv env
 ```
 pip install -r requirements.txt
 ```
+```
+python manage.py makemigrations
+```
+```
+python manage.py migrate
+```
+
+create a user 
+```
+python manage.py createsuperuser
+```
+
+update db conection
+```
+    'default': {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": <DB_NAME>,
+        "USER": <DB_USER>,
+        "PASSWORD": <USER_PASSWORD>,
+        "HOST": <IP_SERVER>,
+        "PORT": <DB_PORT>,
+    }
+```
+https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 
 ## Endpoint
 
